@@ -26,6 +26,9 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "dm-types-legacy.gemspec",
+    "lib/dm-core/property/legacy.rb",
+    "lib/dm-core/property/legacy/html_text.rb",
     "spec/spec_helper.rb"
   ]
   s.has_rdoc = %q{yard}

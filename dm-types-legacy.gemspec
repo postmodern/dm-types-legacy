@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
     "lib/dm-core/property/legacy/date_string.rb",
     "lib/dm-core/property/legacy/html_text.rb",
     "lib/dm-core/property/legacy/numeric_ip_addr.rb",
+    "lib/dm-core/property/legacy/time_string.rb",
     "lib/dm-core/property/legacy/uri_text.rb",
     "spec/spec_helper.rb"
   ]

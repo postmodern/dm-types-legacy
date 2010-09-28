@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "dm-types-legacy.gemspec",
     "lib/dm-core/property/legacy.rb",
+    "lib/dm-core/property/legacy/date_string.rb",
     "lib/dm-core/property/legacy/html_text.rb",
     "lib/dm-core/property/legacy/numeric_ip_addr.rb",
     "lib/dm-core/property/legacy/uri_text.rb",

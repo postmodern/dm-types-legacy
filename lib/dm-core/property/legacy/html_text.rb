@@ -1,5 +1,7 @@
 require 'dm-core'
 
+require 'cgi'
+
 module DataMapper
   class Property
     module Legacy

@@ -29,6 +29,8 @@ Gem::Specification.new do |s|
     "dm-types-legacy.gemspec",
     "lib/dm-core/property/legacy.rb",
     "lib/dm-core/property/legacy/html_text.rb",
+    "lib/dm-core/property/legacy/numeric_ip_addr.rb",
+    "lib/dm-core/property/legacy/uri_text.rb",
     "spec/spec_helper.rb"
   ]
   s.has_rdoc = %q{yard}

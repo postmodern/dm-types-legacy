@@ -35,7 +35,7 @@ module DataMapper
           elsif value.kind_of?(Time)
             value.to_date
           elsif value.kind_of?(String)
-            Date.parse(value)
+            Date.parse(value) unless value.empty?
           end
         end
 

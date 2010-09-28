@@ -1,3 +1,7 @@
+require 'dm-core'
+
+require 'ipaddr'
+
 module DataMapper
   class Property
     module Legacy

@@ -1,1 +1,5 @@
-require 'dm-core/property/legeacy/html_text'
+require 'dm-core/property/legacy/html_text'
+require 'dm-core/property/legacy/uri_text'
+require 'dm-core/property/legacy/time_string'
+require 'dm-core/property/legacy/date_string'
+require 'dm-core/property/legacy/numeric_ip_addr'

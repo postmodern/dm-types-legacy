@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Postmodern"]
-  s.date = %q{2010-09-27}
+  s.date = %q{2010-11-04}
   s.description = %q{dm-types-legacy is a collection of legacy data types for working with legacy databases or unsanitized data.}
   s.email = %q{postmodern.mod3@gmail.com}
   s.extra_rdoc_files = [
@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
     "lib/dm-core/property/legacy/numeric_ip_addr.rb",
     "lib/dm-core/property/legacy/time_string.rb",
     "lib/dm-core/property/legacy/uri_text.rb",
+    "lib/dm-types/legacy.rb",
     "spec/spec_helper.rb"
   ]
   s.has_rdoc = %q{yard}

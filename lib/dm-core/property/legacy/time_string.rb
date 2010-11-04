@@ -18,7 +18,7 @@ module DataMapper
         #   The parsed time.
         #
         def load(value)
-          Time.parse(value) unless (value.nil? || value.empty?)
+          ::Time.parse(value) unless (value.nil? || value.empty?)
         end
 
         #
@@ -31,12 +31,12 @@ module DataMapper
         #   The typecasted time.
         #
         def typecast(value)
-          if value.kind_of?(Time)
+          if value.kind_of?(::Time)
             value
-          elsif value.kind_of?(Date)
+          elsif value.kind_of?(::Date)
             value.to_time
-          elsif value.kind_of?(String)
-            Time.parse(value) unless value.empty?
+          elsif value.kind_of?(::String)
+            ::Time.parse(value) unless value.empty?
           end
         end
 

@@ -30,11 +30,11 @@ module DataMapper
         #   The typecasted IP Address.
         #
         def typecast(value)
-          if value.kind_of?(IPAddr)
+          if value.kind_of?(::IPAddr)
             value
-          elsif value.kind_of?(String)
-            IPAddr.new(value) unless value.empty?
-          elsif value.kind_of?(Integer)
+          elsif value.kind_of?(::String)
+            ::IPAddr.new(value) unless value.empty?
+          elsif value.kind_of?(::Integer)
             load_integer(value)
           end
         end
@@ -65,9 +65,9 @@ module DataMapper
         #
         def load_integer(value)
           if value > 4294967295 # (2 ** 32) - 1
-            IPAddr.new(value,Socket::AF_INET6)
+            ::IPAddr.new(value,Socket::AF_INET6)
           else
-            IPAddr.new(value,Socket::AF_INET)
+            ::IPAddr.new(value,Socket::AF_INET)
           end
         end
 

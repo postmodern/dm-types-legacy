@@ -17,7 +17,7 @@ module DataMapper
         #   The URI unescaped data.
         #
         def load(value)
-          URI.unescape(value) unless value.nil?
+          ::URI.unescape(value) unless value.nil?
         end
 
         #
@@ -30,7 +30,7 @@ module DataMapper
         #   The URI escaped data.
         #
         def dump(value)
-          URI.escape(value) unless value.nil?
+          ::URI.escape(value) unless value.nil?
         end
 
       end

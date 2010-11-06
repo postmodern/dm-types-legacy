@@ -51,5 +51,12 @@ describe DataMapper::Property::Legacy::DateString do
   end
 
   describe "dump" do
+    it "should dump a Date object" do
+      @property.dump(date).should == date_string
+    end
+
+    it "should dump a Time object" do
+      @property.dump(time).should == date_string
+    end
   end
 end

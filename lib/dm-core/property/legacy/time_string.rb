@@ -50,7 +50,16 @@ module DataMapper
         #   The time string.
         #
         def dump(value)
-          value.to_s unless value.nil?
+          case value
+          when ::Time
+            value.to_s
+          when ::Date
+            value.to_time.to_s
+          when nil
+            nil
+          else
+            value.to_s
+          end
         end
 
       end

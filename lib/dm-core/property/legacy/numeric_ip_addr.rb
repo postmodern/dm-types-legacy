@@ -66,7 +66,7 @@ module DataMapper
         def load_integer(value)
           if value > 4294967295 # (2 ** 32) - 1
             ::IPAddr.new(value,Socket::AF_INET6)
-          else
+          elsif value >= 0
             ::IPAddr.new(value,Socket::AF_INET)
           end
         end

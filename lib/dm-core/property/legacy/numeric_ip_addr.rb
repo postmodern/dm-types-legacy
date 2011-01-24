@@ -40,7 +40,7 @@ module DataMapper
         end
 
         #
-        # Dumps an IP Address to a numreic value.
+        # Dumps an IP Address to a numeric value.
         #
         # @param [IPAddr, nil] value
         #   The IP Address.

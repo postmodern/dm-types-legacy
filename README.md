@@ -12,12 +12,12 @@ legacy databases or unsanitized data.
 
 ## Types
 
-* {DataMapper::Types::Legacy::DateString}: Date values stored as Strings.
-* {DataMapper::Types::Legacy::TimeString}: Time values stored as Strings.
-* {DataMapper::Types::Legacy::NumericIPAddr}: IP Addresses stored as
+* {DataMapper::Property::Legacy::DateString}: Date values stored as Strings.
+* {DataMapper::Property::Legacy::TimeString}: Time values stored as Strings.
+* {DataMapper::Property::Legacy::NumericIPAddr}: IP Addresses stored as
   Integers.
-* {DataMapper::Types::Legacy::URIText}: URI escaped text.
-* {DataMapper::Types::Legacy::HTMLText}: HTML escaped text.
+* {DataMapper::Property::Legacy::URIText}: URI escaped text.
+* {DataMapper::Property::Legacy::HTMLText}: HTML escaped text.
 
 ## Requirements
 

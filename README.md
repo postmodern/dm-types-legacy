@@ -1,8 +1,9 @@
 # dm-types-legacy
 
-* [github.com/postmodern/dm-types-legacy](http://github.com/postmodern/dm-types-legacy)
-* [github.com/postmodern/dm-types-legacy/issues](http://github.com/postmodern/dm-types-legacy/issues)
-* Postmodern (postmodern.mod3 at gmail.com)
+* [Source](http://github.com/postmodern/dm-types-legacy)
+* [Issues](http://github.com/postmodern/dm-types-legacy/issues)
+* [Documentation](http://rubydoc.info/gems/dm-types-legacy/frames)
+* [Email](mailto:postmodern.mod3 at gmail.com)
 
 ## Description
 

@@ -1,5 +1,5 @@
 name: dm-types-legacy
-version: 0.1.0
+version: 0.1.1
 summary: A collection of legacy data types for DataMapper.
 description:
   dm-types-legacy is a collection of legacy data types for working with

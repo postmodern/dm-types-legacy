@@ -91,12 +91,12 @@ RAILS = 'http://github.com/rails/rails.git'
 gem 'dm-core',          DM_VERSION, :git => "#{DATAMAPPER}/dm-core.git"
 
 group :development do
-  gem 'rake',		        '~> 0.8.7'
+  gem 'rake',		        '~> 0.8'
   gem 'rubygems-tasks',	'~> 0.1'
   gem 'rspec',		      '~> 2.4'
 
   gem 'kramdown',   '~> 0.12'
-  gem 'yard',		    '~> 0.6.0'
+  gem 'yard',		    '~> 0.6'
 end
 
 group :datamapper do
